@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/mongodb/mongo-go-driver/core/option"
-	"github.com/mongodb/mongo-go-driver/mongo"
+	"go.mongodb.org/mongo-driver/core/option"
+	"go.mongodb.org/mongo-driver/mongo"
 )
 
 func testServer(t *testing.T, handler func(net.Conn)) (func() error, string) {

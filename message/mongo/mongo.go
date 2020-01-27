@@ -6,19 +6,19 @@ import (
 	"errors"
 	"time"
 
-	"github.com/mongodb/mongo-go-driver/bson"
-	"github.com/mongodb/mongo-go-driver/bson/objectid"
-	"github.com/mongodb/mongo-go-driver/mongo"
 	"github.com/wptide/pkg/message"
 	wrapper "github.com/wptide/pkg/wrapper/mongo"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/bson/objectid"
+	"go.mongodb.org/mongo-driver/mongo"
 )
 
 const (
 	// RetryAttempts sets the amount of default retries.
-	RetryAttempts               = 3
+	RetryAttempts = 3
 
 	// LockDuration sets how long an item needs to be locked for.
-	LockDuration  time.Duration = time.Minute * 10
+	LockDuration time.Duration = time.Minute * 10
 )
 
 // Provider implements the Provider interface.

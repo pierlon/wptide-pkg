@@ -75,7 +75,7 @@ imports:
   version: 2530ab030fbe40407f12de1f90f01f277bbae0e9
 - name: github.com/jmespath/go-jmespath
   version: c2b33e8439af944379acbdd9c3a5fe0bc44bd8a5
-- name: github.com/mongodb/mongo-go-driver
+- name: go.mongodb.org/mongo-driver
   version: de03a35e8661ae6df623f41ec8f616ffd8ef6131
   subpackages:
   - bson

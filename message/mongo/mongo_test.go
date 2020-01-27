@@ -8,9 +8,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/mongodb/mongo-go-driver/mongo"
 	"github.com/wptide/pkg/message"
 	wrapper "github.com/wptide/pkg/wrapper/mongo"
+	"go.mongodb.org/mongo-driver/mongo"
 )
 
 func testServer(t *testing.T, handler func(net.Conn)) (func() error, string) {

@@ -3,9 +3,9 @@ package mongo
 import (
 	"context"
 	"errors"
-	"github.com/mongodb/mongo-go-driver/bson"
-	"github.com/mongodb/mongo-go-driver/core/option"
-	"github.com/mongodb/mongo-go-driver/mongo"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/core/option"
+	"go.mongodb.org/mongo-driver/mongo"
 )
 
 // Client interface describes a MongoDB client (a wrapper).

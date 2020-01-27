@@ -20,7 +20,7 @@ import:
 - package: github.com/blang/semver
   version: v3.5.1
 - package: github.com/hhatto/gocloc
-- package: github.com/mongodb/mongo-go-driver
+- package: go.mongodb.org/mongo-driver
   version: v0.0.6
   subpackages:
   - bson
